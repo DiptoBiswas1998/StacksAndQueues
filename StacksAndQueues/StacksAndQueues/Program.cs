@@ -7,11 +7,10 @@ namespace StacksAndQueues
         {
             Console.WriteLine("Welcome to the Stack and Queue Problem!");
             LinkedList linkedList = new LinkedList();
-            linkedList.Push(70);
-            linkedList.Push(30);
-            linkedList.Push(56);
+            linkedList.Enqueue(56);
+            linkedList.Enqueue(30);
+            linkedList.Enqueue(70);
             linkedList.Display();
-            linkedList.IsEmpty();
         }
     }
 }
